@@ -42,6 +42,11 @@ case $CHOICE in
 		./bash/script-hello-world.bash
 		;;
 	
+	13)
+		#Script to create a new directory, made by Natalia Krzysztof
+		./bash/create-new-directory.bash
+		;;
+	
 	23)	
 		#Script to remove duplicate LINES in a file, made by Natalia Krzysztof
 		./bash/remove-lines-duplicates.bash
