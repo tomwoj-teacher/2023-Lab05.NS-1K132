@@ -41,6 +41,10 @@ case $CHOICE in
 		#Example, made by Tomasz Wojdyński
 		./bash/script-hello-world.bash
 		;;
+
+	5)
+		#Script to change password, made by Wojciech Kwiatkowski
+		;;
 	
 	13)
 		#Script to create a new directory, made by Natalia Krzysztof
