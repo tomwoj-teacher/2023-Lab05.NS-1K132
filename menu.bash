@@ -27,7 +27,8 @@ echo "Script 19: Backup files and directores to a remote location"
 echo "Script 20: Monitor system resource: CPU, memory, disk space"
 echo "Script 21: Install and configure sofware packages on the system"
 echo "Script 22: Silent ping which displays the lowest and highest ping"
-echo "Script 23: Check and remove duplicates in a file"
+echo "Script 23: Check and remove duplicate lines in a file"
+echo "Script 24: Check and remove duplicate words in a file"
 
 echo "99 - Exit from menu"
 echo ""
@@ -40,6 +41,21 @@ case $CHOICE in
 		#Example, made by Tomasz Wojdyński
 		./bash/script-hello-world.bash
 		;;
+	
+	13)
+		#Script to create a new directory, made by Natalia Krzysztof
+		./bash/create-new-directory.bash
+		;;
+	
+	23)	
+		#Script to remove duplicate LINES in a file, made by Natalia Krzysztof
+		./bash/remove-lines-duplicates.bash
+		;;
+	
+	24)
+		#Script to remove duplicate WORDS in a file, made by Natalia Krzysztof
+                ./bash/remove-words-duplicates.bash
+                ;;
 
 	99) 
 		echo -e "\nExit from menu in 5 sec. Good bye.\n"
