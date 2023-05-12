@@ -44,6 +44,7 @@ case $CHOICE in
 
 	5)
 		#Script to change password, made by Wojciech Kwiatkowski
+		./bash/change-password.bash
 		;;
 	
 	13)
