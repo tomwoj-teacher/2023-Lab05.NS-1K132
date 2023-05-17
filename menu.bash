@@ -52,6 +52,11 @@ case $CHOICE in
 		./bash/create-new-directory.bash
 		;;
 	
+	18)
+		#Script to display a list of all processes running on the system with information about their PID, name and status
+
+		;;
+
 	23)	
 		#Script to remove duplicate LINES in a file, made by Natalia Krzysztof
 		./bash/remove-lines-duplicates.bash
