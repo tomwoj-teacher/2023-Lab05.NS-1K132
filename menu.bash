@@ -57,6 +57,10 @@ case $CHOICE in
 
 		;;
 
+	20)	#Script to monitor system resources - Kacper Kaleta
+		./bash/monitor.bash
+		;;
+
 	23)	
 		#Script to remove duplicate LINES in a file, made by Natalia Krzysztof
 		./bash/remove-lines-duplicates.bash
