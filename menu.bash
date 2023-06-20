@@ -54,7 +54,7 @@ case $CHOICE in
 	
 	18)
 		#Script to display a list of all processes running on the system with information about their PID, name and status
-
+		./bash/list-of-processes.bash
 		;;
 
 	20)	#Script to monitor system resources - Kacper Kaleta
