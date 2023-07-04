@@ -42,6 +42,16 @@ case $CHOICE in
 		./bash/script-hello-world.bash
 		;;
 
+	3)
+		#Script to create password for the user, made by Krzysztof Mendroch
+		./bash/create-password.bash
+		;;
+
+	4)
+		#Script to remove user password, made by Krzysztof Mendroch
+		./bash/remove-password.bash
+		;;
+
 	5)
 		#Script to change password, made by Wojciech Kwiatkowski
 		./bash/change-password.bash
